@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		6AF568FC21FF665F00AB6DA4 /* Runner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6AF568FB21FF665F00AB6DA4 /* Runner.cpp */; };
+		6AF5690021FF678B00AB6DA4 /* Controller.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6AF568FE21FF678B00AB6DA4 /* Controller.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		6AF568ED21FF65AB00AB6DA4 /* ArrayandVector */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ArrayandVector; sourceTree = BUILT_PRODUCTS_DIR; };
 		6AF568FB21FF665F00AB6DA4 /* Runner.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Runner.cpp; sourceTree = "<group>"; };
+		6AF568FE21FF678B00AB6DA4 /* Controller.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Controller.cpp; sourceTree = "<group>"; };
+		6AF568FF21FF678B00AB6DA4 /* Controller.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Controller.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +60,7 @@
 		6AF568EF21FF65AB00AB6DA4 /* ArrayandVector */ = {
 			isa = PBXGroup;
 			children = (
+				6AF568FD21FF677600AB6DA4 /* Controller */,
 				6AF568F721FF65F200AB6DA4 /* Model */,
 			);
 			path = ArrayandVector;
@@ -68,6 +72,15 @@
 				6AF568FB21FF665F00AB6DA4 /* Runner.cpp */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		6AF568FD21FF677600AB6DA4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6AF568FE21FF678B00AB6DA4 /* Controller.cpp */,
+				6AF568FF21FF678B00AB6DA4 /* Controller.hpp */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6AF568FC21FF665F00AB6DA4 /* Runner.cpp in Sources */,
+				6AF5690021FF678B00AB6DA4 /* Controller.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
